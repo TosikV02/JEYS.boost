@@ -1,0 +1,19 @@
+# Disable backpressure
+debug.sf.disable_backpressure=1
+debug.sf.enable_gl_backpressure=0
+
+# Disable HWC
+debug.sf.enable_hwc_vds=0
+debug.sf.predict_hwc_composition_strategy=0
+
+# Disable transaction tracing
+debug.sf.enable_transaction_tracing=false
+
+# Disable log
+profiler.force_disable_err_rpt=1
+profiler.force_disable_ulog=1
+logcat.live=disable
+logcat.live=0
+ro.kernel.android.checkjni=0
+ro.kernel.checkjni=0
+debug.kill_allocating_task=0
